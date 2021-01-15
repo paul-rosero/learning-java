@@ -1,4 +1,5 @@
-Java is a computer programming language that enforces an Object-Oriented Programming(OOP) model.
+Java is a computer programming language that enforces an Object-Oriented Programming(OOP) model. 
+Java code must be compiled before it is run. This means using one command to compile the code and another command to execute/run the code. 
 
 The 4 Pillars of Java OOP are A-P-I-E. Abstraction, Polymorphism, Inheritance, Encapsulation. 
     Abstraction - 
