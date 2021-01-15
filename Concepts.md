@@ -11,3 +11,5 @@ The 4 Pillars of Java OOP are A-P-I-E. Abstraction, Polymorphism, Inheritance, E
         Method Overloading -
             a single method may perform different functions depending on the context in which it's called. 
     
+    Inheritance -
+        It lets programmers create new classes that share some of the attributes of existing classes. It works by letting a new class adopt the properties of another. We call the inheriting class a "subclass" or "child class". The original class is called the "parent class". We use the keyword "extends" to define a new class that inherits properties from an old class.
