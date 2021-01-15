@@ -24,4 +24,4 @@ Object -
     An instance of a class. Every object in java has its own state. 
 
 Interface -
-    Is like a class in Java but there are differences between class and interface. Interface is a collection of methods or we can say collection of abstract methods. A Class can inherit the interface using the "implements" keyword. In interface we can only declare or give prototype to method we cannot define methods inside the interface.
+    Is like a class in Java but there are differences between class and interface. Interface is a collection of methods or we can say collection of abstract methods. A Class can inherit the interface using the "implements" keyword. In interface we can only declare or give prototype to method we cannot define methods inside the interface. "Interface" keyword is used to create interface in java. 
