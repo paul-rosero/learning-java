@@ -2,7 +2,7 @@ Java is a computer programming language that enforces an Object-Oriented Program
 
 The 4 Pillars of Java OOP are A-P-I-E. Abstraction, Polymorphism, Inheritance, Encapsulation. 
     Abstraction - 
-        it means using simple things to represent complexity. In Java, abstraction means simple things like objects, classes, and variables, represent more complex underlying code and data. It lets programmers create useful and reusable tools.  
+        is the process of showing only essential/necessary features of an entity/object to the outside world and hide the other irrelevant information. 
     
     Polymorphism - 
         This Java OOP concepts lets programmers use the same word to mean different things in different contexts. Method overriding and overloading are examples of polymorphism. 
