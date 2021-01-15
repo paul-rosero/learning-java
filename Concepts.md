@@ -16,3 +16,9 @@ The 4 Pillars of Java OOP are A-P-I-E. Abstraction, Polymorphism, Inheritance, E
 
     Encapsulation -
         The practice of keeping fields within a class private, then providing access to them via public methods. It is used with the word "private" before calling the code. It's a protective barrier that keeps the data and code safe within the class itself. This way we can re-use objects like code components or variables without allowing open access to the data system-wide. For example, we may create a piece of code that calls specific data from a database. It may be useful to reuse that code with other databases or processes. Encapsulation lets us do that while keeping our original data private. It also lets us alter our original code without breaking it for others who have adopted it in the meantime.
+
+Class - 
+    It is a blueprint, a collection of properties and methods, a template for objects. 
+
+Object - 
+    An instance of a class. Every object in java has its own state. 
