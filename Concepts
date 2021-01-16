@@ -1,5 +1,14 @@
 Java is a computer programming language that enforces an Object-Oriented Programming(OOP) model. 
-Java code must be compiled before it is run. This means using one command to compile the code and another command to execute/run the code. 
+Java code must be compiled before it is run. This means using one command to compile the code and another command to execute/run the code.
+
+Java Program Life Cycle
+    Step 1: Create source document using any editor(VSCode) and save file as .java
+    
+    Step 2: Compile the .java file using "javac" command or eclipse will compile it automatically.
+
+    Step 3: Byte Code(sample.class) will be generated on disk.
+
+    Step 4: this byte code can run on any platform or device having JVM(java.exe convert byte code in machine language)
 
 The 4 Pillars of Java OOP are A-P-I-E. Abstraction, Polymorphism, Inheritance, Encapsulation. 
     Abstraction - 
