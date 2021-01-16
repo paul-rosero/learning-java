@@ -1,4 +1,8 @@
 Java Development Kit(JDK) - 
     Contains Java Runtime Environment (JRE) along various development tools like Java libraries, Java source compilers, Java debuggers, bundling and development tools.
 
-Java Runtime Environment(JRE) -
+Java Runtime Environment(JRE) - 
+    A part od JDK but can be used independently to run any byte code (compiled Java program). It can be called as JVM implementation.
+
+Java Virtual Machine -
+    
