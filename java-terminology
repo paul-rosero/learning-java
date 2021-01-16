@@ -4,5 +4,6 @@ Java Development Kit(JDK) -
 Java Runtime Environment(JRE) - 
     A part od JDK but can be used independently to run any byte code (compiled Java program). It can be called as JVM implementation.
 
-Java Virtual Machine -
-    
+Java Virtual Machine(JVM) - 
+    A software that can be ported to various hardware platforms. JVM will become an instace of JRE at runtime of java program. Byte codes are maching language for the JVM. 
+
