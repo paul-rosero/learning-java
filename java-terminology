@@ -7,3 +7,5 @@ Java Runtime Environment(JRE) -
 Java Virtual Machine(JVM) - 
     A software that can be ported to various hardware platforms. JVM will become an instace of JRE at runtime of java program. Byte codes are maching language for the JVM. 
 
+Java Application Programming Interface(API)-
+    Set of classes' written using Java programming language which runs on JVM. These classes will help prgorammers by providing standard methods like reading from the console, writing to the console, saving objects in data structure etc. 
