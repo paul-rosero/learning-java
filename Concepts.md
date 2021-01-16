@@ -35,5 +35,5 @@ Methods -
     It is a function in some programming languages that operate on an object's internal state and serve as the primary mechanism for object-to-object communication.
 
 Interface -
-    Is like a class in Java but there are differences between class and interface. Interface is a collection of methods or we can say collection of abstract methods. A Class can inherit the interface using the "implements" keyword. In interface we can only declare or give prototype to method we cannot define methods inside the interface. "Interface" keyword is used to create interface in java. It isa group of related methods with empty bodies. 
+    Is like a class in Java but there are differences between class and interface. Interface is a collection of methods or we can say collection of abstract methods with no implementation. A Class can inherit the interface using the "implements" keyword. In interface we can only declare or give prototype to method we cannot define methods inside the interface. "Interface" keyword is used to create interface in java. It is a group of related methods with empty bodies. 
 
