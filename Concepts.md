@@ -37,3 +37,7 @@ Methods -
 Interface -
     Is like a class in Java but there are differences between class and interface. Interface is a collection of methods or we can say collection of abstract methods with no implementation. A Class can inherit the interface using the "implements" keyword. In interface we can only declare or give prototype to method we cannot define methods inside the interface. "Interface" keyword is used to create interface in java. It is a group of related methods with empty bodies. 
 
+Package - 
+    A namespace that organizes classes and interfaces by functionality or in a logical manner. Java provides an enormous class library(a set of packages) suitable for use in your own application, called "Application Programming Interface" or "API"
+    API -
+        This package represents the tasks most commonly associated with general-purpose programming.
