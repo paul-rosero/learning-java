@@ -41,3 +41,6 @@ Package -
     A namespace that organizes classes and interfaces by functionality or in a logical manner. Java provides an enormous class library(a set of packages) suitable for use in your own application, called "Application Programming Interface" or "API"
     API -
         This package represents the tasks most commonly associated with general-purpose programming.
+
+Garbage Collection -
+    It's code that collects unused objects ad deletes them to free up memory. It's implementation lives inside the Java Virtual Machine(JVM) and the programmer does not need to explicitly mark objects to be deleted. It is an Automatic Process. 
