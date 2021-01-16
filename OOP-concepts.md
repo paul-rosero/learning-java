@@ -1,3 +1,6 @@
+OOP - 
+    is creating objects that contain both data and methods. 
+
 Best practices for OOP Concepts in Java. 
 
 a) DRY (Don't Repeat Yourself). You should never have two blocks of identical code in two different places. 
