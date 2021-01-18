@@ -6,31 +6,37 @@ Best practices for OOP Concepts in Java.
 a) DRY (Don't Repeat Yourself). You should never have two blocks of identical code in two different places. 
 b) If you expect your JAva code to change in the future, encapsulate it by making all variables and methods private at the outset. 
 c) Single Responsibility Principle. A class should always have only one functionality.
-d) Open Closed Design. Make all methods and classes Closed for modifications but Open for an extension. That way, tried and tested code can remain static but can be modified to perform new tasks as needed.  
+d) Open Closed Design. Make all methods and classes Closed for modifications but Open for an extension. That way, tried and tested code can remain static but can be modified to perform new tasks as needed.
 
-Simple Types grouped in 4 groups:
-    Integers - 
-        Byte, Short, Int, Long 
-        Which are the whole-value signed numbers. 
+2 groups of Datatypes: 
+    Primitive -
+        Predifined by the language and named as a keyword.
+        1) Byte 
+        2) Short
+        3) Int
+        4) Long
+        5) Char
+        6) Float
+        7) Double 
+        8) Boolean
+        Simple Types grouped in 4 groups:
+            Integers - 
+                Byte, Short, Int, Long 
+                Which are the whole-value signed numbers. 
 
-    Floating-point numbers - 
-        Float, Double 
-        Which represent numbers with fractional precisions. 
-    
-    Characters - 
-        Char
-        Which reprsents symbols in a character set, like letters and numbers. 
-    
-    Boolean - 
-        Boolean
-        Which is a special type for representing true/false values.
+            Floating-point numbers - 
+                Float, Double 
+                Which represent numbers with fractional precisions. 
+            
+            Characters - 
+                Char
+                Which reprsents symbols in a character set, like letters and numbers. 
+            
+            Boolean - 
+                Boolean
+                Which is a special type for representing true/false values.
 
-Primitive Data Types:
-    1) Byte
-    2) Short
-    3) Int
-    4) Long
-    5) Char
-    6) Float
-    7) Double 
-    8) Boolean
+    Non-Primitive/Refence - 
+        Refence variables are created using defined constructors of the classes.
+        These variables are declared to be of a specific type that cannot be changed.
+        Objects of vrious classes Strings and Arrays come under reference datatype.
