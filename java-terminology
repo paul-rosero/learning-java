@@ -15,7 +15,7 @@ Java Modifier -
 
 Java Access Modifier -
     Keyword to set access levels for classes, variables, methods and constructors. There are 4 Levels. 
-    Default -
+    Default( no word before the class, variable, method and constructors) -
         Visible to the package.
     Private -
         Visible to the class only.
