@@ -11,14 +11,23 @@ d) Open Closed Design. Make all methods and classes Closed for modifications but
 2 groups of Datatypes: 
     Primitive -
         Predifined by the language and named as a keyword.
-        1) Byte 
-        2) Short
-        3) Int
-        4) Long
-        5) Char
-        6) Float
-        7) Double 
-        8) Boolean
+        1) Byte -
+            The smallest integer type is byte. It has a minimum value of -128 and a maximum value of 127 (inclusive). The byte data type can be useful for saving memory in large arrays, where the memory savings actually matters.
+        2) Short -
+            The short data type is a 16-bit signed two's complement integer. It has a minimum value of -32,768 and a maximum value of 32,767 (inclusive). As with byte, the same guidelines apply: you can use a short to save memory in large arrays, in situations where the memory savings actually matters.
+        3) Int -
+            The most commonly used integer type is int. It is a signed 32-bit type that has a range from –2,147,483,648 to 2,147,483,647. In addition to other uses, variables of type int are commonly employed to control loops and to index arrays.
+        4) Long -
+            long is a signed 64-bit type and is useful for those occasions where an int type is not large enough to hold the desired value. It has a minimum value of -9,223,372,036,854,775,808 and a maximum value of 9,223,372,036,854,775,807 (inclusive).
+        5) Char -
+            In Java, the data type used to store characters is char. The char data type is a single 16-bit Unicode character. It has a minimum value of '\u0000' (or 0) and a maximum value of '\uffff' (or 65,535 inclusive). There are no negative chars.
+        6) Float -
+            Floating-point numbers, also known as real numbers, are used when evaluating expressions that require fractional precision. For example interest rate calculation or calculating square root.
+        7) Double -
+            Double precision, as denoted by the double keyword, uses 64 bits to store a value. Double precision is actually faster than single precision on some modern processors that have been optimized for high-speed mathematical calculations. All transcendental math functions, such as sin( ), cos( ), and sqrt( ), return double values. 
+        8) Boolean -
+            The boolean data type has only two possible values: true and false. 
+
         Simple Types grouped in 4 groups:
             Integers - 
                 Byte, Short, Int, Long 
