@@ -10,7 +10,11 @@ Java Virtual Machine(JVM) -
 Java Application Programming Interface(API)-
     Set of classes' written using Java programming language which runs on JVM. These classes will help prgorammers by providing standard methods like reading from the console, writing to the console, saving objects in data structure etc. 
 
-Java Access Modifier - 
+Java Modifier -
+    They are keywords that you add to those definitions to change, modify or specify their meanings. There are 2 tyes: Access and Non-Access.
+
+Java Access Modifier -
+    Keyword to set access levels for classes, variables, methods and constructors. There are 4 Levels. 
 
 Java Identifiers -
 
