@@ -13,7 +13,7 @@ Java Application Programming Interface(API)-
 Java Modifier -
     They are keywords that you add to those definitions to change, modify or specify their meanings. There are 2 tyes: Access and Non-Access.
 
-Java Access Modifier -
+Java Access Modifiers -
     Keyword to set access levels for classes, variables, methods and constructors. There are 4 Levels. 
     Default( no word before the class, variable, method and constructors) -
         Visible to the package.
@@ -23,6 +23,16 @@ Java Access Modifier -
         Visible to the world.
     Protected -
         Visible tot he package and all subclasses.
+
+Java Non-Access Modifiers -
+    Keyword to provide additional functionalities to a class, variable, method or constructor.
+    Some examples are:
+    Static -
+    Final - 
+    Abstract -
+    Synchronized - 
+    Volatile - 
+
 
 Java Identifiers -
 
