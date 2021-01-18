@@ -16,24 +16,32 @@ Java Modifier -
 Java Access Modifiers -
     Keyword to set access levels for classes, variables, methods and constructors. There are 4 Levels. 
     Default( no word before the class, variable, method and constructors) -
-        Visible to the package.
+        Any class, field(variable), method or constructor that has no declared access modifier is accessible only by classes in the same package.
     Private -
         Visible to the class only.
     Public -
-        Visible to the world.
+        Visible to any class in the Java Program, whether these classes are in the same package or in another package.
     Protected -
-        Visible tot he package and all subclasses.
+        Visible to the package and all subclasses.
 
 Java Non-Access Modifiers -
     Keyword to provide additional functionalities to a class, variable, method or constructor.
     Some examples are:
     Static -
+        The static members of the class can be accessed without creating an object of a class. Don't need to instantiate a new object(Dont need to do new Object()). 
     Final - 
+        This modifier tells the compiler not to change the value of a variable once assigned. If applied to class, it cannot be sub-classed. If applied to a method, the method cannot be overridden in sub-class.
     Abstract -
+        There are situations in which you will want to define a superclass that declares the structure of a given abstraction without providing a complete implementation of every method. This modifier is applicable to class and methods only.
     Synchronized - 
     Volatile - 
 
 
-Java Identifiers -
+Java Identifiers - 
+    The names of variables, methods, classes, packages and interfaces. Variable names can include any alphabetic character or digit and the underscore _. ... The main restriction on the names you can give your variables is that they cannot contain any white space.
 
 Java keywords - 
+    Reserved words that cannot be used as variables, methods, classes, or any other identifiers. 
+
+Java Packages -
+    can be thought of as file directories where Java classes are organized, categorized, control access to your classes. 
