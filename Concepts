@@ -1,4 +1,7 @@
-Java is a computer programming language that enforces an Object-Oriented Programming(OOP) model. 
+Java is a server-side and static type language.
+
+Java is a computer programming language that enforces an Object-Oriented Programming(OOP) model and is platform(Mac, Linux, Windows) INDEPENDENT.
+
 Java code must be compiled before it is run. This means using one command to compile the code and another command to execute/run the code.
 
 Java Program Life Cycle
@@ -28,7 +31,7 @@ The 4 Pillars of Java OOP are A-P-I-E. Abstraction, Polymorphism, Inheritance, E
         The practice of keeping fields within a class private, then providing access to them via public methods. It is used with the word "private" before calling the code. It's a protective barrier that keeps the data and code safe within the class itself. This way we can re-use objects like code components or variables without allowing open access to the data system-wide. For example, we may create a piece of code that calls specific data from a database. It may be useful to reuse that code with other databases or processes. Encapsulation lets us do that while keeping our original data private. It also lets us alter our original code without breaking it for others who have adopted it in the meantime.
 
 Class - 
-    It is a blueprint or prototype from which individual(instance of) objects are created.
+    It is a blueprint from which individual(instance of) objects are created. The building blocks of Java application, representing things and concepts with which your program operates.
     SuperClass -
         it is the name for the parent class in other programming languages.
     Subclass -
@@ -36,6 +39,17 @@ Class -
 
 Object - 
     An instance of a class. Every object in java has its own state and behavior. 
+
+Variables - 
+    Refers to something that holds a value/data that can change over time. It also holds a specific type of data.
+Most Used TYPES OF VARIABLES:
+    -String
+    -int
+    -double
+    -boolean
+
+Constants -
+    Values/data that must NOT change by using the word Final keyword.
 
 Fields -
     Name where object stores its state.
@@ -47,7 +61,8 @@ Interface -
     Is like a class in Java but there are differences between class and interface. Interface is a collection of methods or we can say collection of abstract methods with no implementation. A Class can inherit the interface using the "implements" keyword. In interface we can only declare or give prototype to method we cannot define methods inside the interface. "Interface" keyword is used to create interface in java. It is a group of related methods with empty bodies. 
 
 Package - 
-    A namespace that organizes classes and interfaces by functionality or in a logical manner. Java provides an enormous class library(a set of packages) suitable for use in your own application, called "Application Programming Interface" or "API"
+    This is a folder in which the class will be saved, provides a namespace for the class. The folder name(the package) is used to uniquely identify the class.
+    Java provides an enormous class library(a set of packages) suitable for use in your own application, called "Application Programming Interface" or "API"
     API -
         This package represents the tasks most commonly associated with general-purpose programming.
 
