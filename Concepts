@@ -38,7 +38,7 @@ Object -
     An instance of a class. Every object in java has its own state and behavior. 
 
 Fields -
-    It is variable in some programming languages that an object stores its state.
+    Name where object stores its state.
 
 Methods - 
     It is a function in some programming languages that operate on an object's internal state and serve as the primary mechanism for object-to-object communication.
