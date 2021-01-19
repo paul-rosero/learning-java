@@ -43,5 +43,3 @@ Java Identifiers -
 Java keywords - 
     Reserved words that cannot be used as variables, methods, classes, or any other identifiers. 
 
-Java Packages -
-    can be thought of as file directories where Java classes are organized, categorized, control access to your classes. 
