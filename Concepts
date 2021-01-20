@@ -67,4 +67,13 @@ Package -
         This package represents the tasks most commonly associated with general-purpose programming.
 
 Garbage Collection -
-    It's code that collects unused objects ad deletes them to free up memory. It's implementation lives inside the Java Virtual Machine(JVM) and the programmer does not need to explicitly mark objects to be deleted. It is an Automatic Process. 
+    It's code that collects unused objects ad deletes them to free up memory. It's implementation lives inside the Java Virtual Machine(JVM) and the programmer does not need to explicitly mark objects to be deleted. It is an Automatic Process.
+
+Operator Precedence(Rules of Precedence):
+    First - Operators within a pair of parentheses
+
+    Second - Increment and decrement operators(++ or --)
+
+    Third - Multiplication and division operators, evaluated from left to right. 
+
+    Fourth - Addition and subtraction operators, evaluated from left to right. 
