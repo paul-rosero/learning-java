@@ -16,13 +16,13 @@ Java Modifier -
 Java Access Modifiers -
     Keyword to set access levels for classes, variables, methods and constructors. There are 4 Levels. 
     Default( no word before the class, variable, method and constructors) -
-        Any class, field(variable), method or constructor that has no declared access modifier is accessible only by classes in the same package.
+        Any class, field(variable), method or constructor that has no declared access modifier is visible only by classes in the same package.
     Private -
-        Visible to the class only.
+        Visible to the same class only.
     Public -
-        Visible to any class in the Java Program, whether these classes are in the same package or in another package.
+        Visible to any(all) class(es) in the Java Program, whether these classes are in the same package or in another package.
     Protected -
-        Visible to the package and all subclasses.
+        Visible to classes in the same package and subclasses.
 
 Java Non-Access Modifiers -
     Keyword to provide additional functionalities to a class, variable, method or constructor.
