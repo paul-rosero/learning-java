@@ -5,7 +5,11 @@ Java Runtime Environment(JRE) -
     A part od JDK but can be used independently to run any byte code (compiled Java program). It can be called as JVM implementation.
 
 Java Virtual Machine(JVM) - 
-    A software that can be ported to various hardware platforms. JVM will become an instace of JRE at runtime of java program. Byte codes are maching language for the JVM. 
+    A software that can be ported to various hardware platforms. JVM will become an instace of JRE at runtime of java program. Byte codes are maching language for the JVM. There are Two areas of memory created by the JVM when it starts: the Stack and the Heap.
+    Stack -
+        Variablesare stored in the stack.
+    Heap -
+        Objects are stored int he heap.
 
 Java Application Programming Interface(API)-
     Set of classes' written using Java programming language which runs on JVM. These classes will help prgorammers by providing standard methods like reading from the console, writing to the console, saving objects in data structure etc. 
@@ -45,3 +49,4 @@ Java keywords -
 
 Variable Shadowing -
     When a parameter in a method is spelled the same as an instance variable. Variable shadowing refers to the practice of naming two variables — for example, a global and a local variable or a local variable and a callback function parameter — with the same name and within scopes that overlap. The variable scoping rule states that inner scope can access variables defined in the outer scope. This is true in almost all cases — not when the variable in the inner scope shadows the variable in the outer scope. Variable shadowing is a condition where two variables with the same name coexisting in a scope where these variables should both be accessible.
+
