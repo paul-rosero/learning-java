@@ -7,9 +7,9 @@ Java Runtime Environment(JRE) -
 Java Virtual Machine(JVM) - 
     A software that can be ported to various hardware platforms. JVM will become an instace of JRE at runtime of java program. Byte codes are maching language for the JVM. There are Two areas of memory created by the JVM when it starts: the Stack and the Heap.
     Stack -
-        It holds local variables and partial results, and plays a part in method invocation and return. Because the Java Virtual Machine stack is never manipulated directly except to push and pop frames, frames may be heap allocated. The memory for a Java Virtual Machine stack does not need to be contiguous.
+        It holds local variables and partial results, and plays a part in method invocation and return. Because the Java Virtual Machine stack is never manipulated directly except to push and pop frames, frames may be heap allocated. Object Reference is stored in stack and the data for the Object is stored in the heap.
     Heap -
-        Objects are stored int he heap. The Java heap is the area of memory used to store objects instantiated by applications running on the JVM. Objects in the heap can be shared between threads. Many users restrict the Java heap size to 2-8 GB in order to minimize garbage collection pauses.
+        Objects are stored in the heap. The Java heap is the area of memory used to store object data instantiated by applications running on the JVM. Objects in the heap can be shared between threads. Many users restrict the Java heap size to 2-8 GB in order to minimize garbage collection pauses.
 
 Java Application Programming Interface(API)-
     Set of classes' written using Java programming language which runs on JVM. These classes will help prgorammers by providing standard methods like reading from the console, writing to the console, saving objects in data structure etc. 
