@@ -50,3 +50,5 @@ Java keywords -
 Variable Shadowing -
     When a parameter in a method is spelled the same as an instance variable. Variable shadowing refers to the practice of naming two variables — for example, a global and a local variable or a local variable and a callback function parameter — with the same name and within scopes that overlap. The variable scoping rule states that inner scope can access variables defined in the outer scope. This is true in almost all cases — not when the variable in the inner scope shadows the variable in the outer scope. Variable shadowing is a condition where two variables with the same name coexisting in a scope where these variables should both be accessible.
 
+Exceptions -
+    An unexpected situations that happens in the program and Java doesnt know what to do, therefore it creates an exception object. This Exception Object contains useful information and throws the exception to the code that invoked the problematic method.
