@@ -20,7 +20,7 @@ The 4 Pillars of Java OOP are A-P-I-E. Abstraction, Polymorphism, Inheritance, E
     Polymorphism - 
         This Java OOP concepts lets programmers use the same word to mean different things in different contexts. Method overriding and overloading are examples of polymorphism. 
         Method Overriding -
-            the child class can use the OOP polymorphism concept to override a method of its parent class.
+            the child class can use the OOP polymorphism concept to override a method of its parent class. Subclasses can override parent class methods but can still reuse the parents method logic using the keyword "super" reference.
         Method Overloading -
             a single method may perform different functions depending on the context in which it's called. When you have more than 1 method with the same name with different type and/or number of parameters.  
     
