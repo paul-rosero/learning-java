@@ -62,3 +62,5 @@ Class Variables(Static Fields) -
 Local Variables - 
     Similar to how an object stores its state in fields, a method will often store its temporary state in local variables. The syntax for declaring a local variable is similar to declaring a field. Local Variables are only visible to the metod in which they are declared.
 
+Parameters -
+    Parameters are the variable word in a method that is inside the parenthesis, before the block is declared. Parameters are always classified as "variables" not "fields". 
