@@ -36,7 +36,7 @@ Java Non-Access Modifiers -
     Final - 
         This modifier tells the compiler not to change the value of a variable once assigned. If applied to class, it cannot be sub-classed. If applied to a method, the method cannot be overridden in sub-class.
     Abstract -
-        There are situations in which you will want to define a superclass that declares the structure of a given abstraction without providing a complete implementation of every method. This modifier is applicable to class and methods only.
+        Keyword can be used to encourage class extensibility. This modifier is applicable to class and methods only. Class cannot be directly instantiated if it is marked witht he abstract keyword. 
     Synchronized - 
     Volatile - 
 
