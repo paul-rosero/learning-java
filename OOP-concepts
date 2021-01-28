@@ -9,6 +9,8 @@ c) Single Responsibility Principle. A class should always have only one function
 d) Open Closed Design. Make all methods and classes Closed for modifications but Open for an extension. That way, tried and tested code can remain static but can be modified to perform new tasks as needed.
 
 2 groups of Datatypes: 
+    Datatype - 
+        Specifies the size and type of values that can be stored in an identifier.
     Primitive -
         Predifined by the language and named as a keyword.
         1) Byte -
