@@ -38,6 +38,7 @@ Java Non-Access Modifiers -
     Abstract -
         Keyword can be used to encourage class extensibility. This modifier is applicable to class and methods only. Class cannot be directly instantiated if it is marked witht he abstract keyword. 
     Synchronized - 
+        Methods can only be accessed by one thread at a time
     Volatile - 
 
 
