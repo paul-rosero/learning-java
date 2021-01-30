@@ -40,7 +40,7 @@ Java Non-Access Modifiers -
     Synchronized - 
         Methods can only be accessed by one thread at a time
     Volatile - 
-
+        The value of an attribute is not cached thread-locally, and is always read from the "main memory"
 
 Java Identifiers - 
     The names of variables, methods, classes, packages and interfaces. Variable names can include any alphabetic character or digit and the underscore _. ... The main restriction on the names you can give your variables is that they cannot contain any white space.
