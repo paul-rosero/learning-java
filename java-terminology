@@ -1,0 +1,67 @@
+Java Development Kit(JDK) - 
+    Contains the JRE and various development tools like Java libraries, Java source compilers, Java debuggers, bundling and development tools used for developing Java based software.
+
+Java Runtime Environment(JRE) - 
+    A part od JDK but can be used independently to run any byte code (compiled Java program). It can be called as JVM implementation.
+
+Java Virtual Machine(JVM) - 
+    A software that can be ported to various hardware platforms. JVM will become an instace of JRE at runtime of java program. Byte codes are maching language for the JVM. There are Two areas of memory created by the JVM when it starts: the Stack and the Heap.
+    Stack -
+        It holds local variables and partial results, and plays a part in method invocation and return. Because the Java Virtual Machine stack is never manipulated directly except to push and pop frames, frames may be heap allocated. Object Reference is stored in stack and the data for the Object is stored in the heap.
+    Heap -
+        Objects are stored in the heap. The Java heap is the area of memory used to store object data instantiated by applications running on the JVM. Objects in the heap can be shared between threads. Many users restrict the Java heap size to 2-8 GB in order to minimize garbage collection pauses.
+
+Java Application Programming Interface(API)-
+    Set of classes' written using Java programming language which runs on JVM. These classes will help prgorammers by providing standard methods like reading from the console, writing to the console, saving objects in data structure etc. 
+
+Java Modifier -
+    They are keywords that you add to those definitions to change, modify or specify their meanings. There are 2 tyes: Access and Non-Access.
+
+Java Access Modifiers -
+    Keyword to set access levels for classes, variables, methods and constructors. There are 4 Levels. 
+    Default( no word before the class, variable, method and constructors) -
+        Any class, field(variable), method or constructor that has no declared access modifier is visible only by classes in the same package.
+    Private -
+        Visible to the same class only.
+    Public -
+        Visible to any(all) class(es) in the Java Program, whether these classes are in the same package or in another package.
+    Protected -
+        Visible to classes in the same package and subclasses.
+
+Java Non-Access Modifiers -
+    Keyword to provide additional functionalities to a class, variable, method or constructor.
+    Some examples are:
+    Static -
+        The static members of the class can be accessed without creating an object of a class. Don't need to instantiate a new object(Dont need to do new Object()). 
+    Final - 
+        This modifier tells the compiler not to change the value of a variable once assigned. If applied to class, it cannot be sub-classed. If applied to a method, the method cannot be overridden in sub-class.
+    Abstract -
+        Keyword can be used to encourage class extensibility. This modifier is applicable to class and methods only. Class cannot be directly instantiated if it is marked witht he abstract keyword. 
+    Synchronized - 
+        Methods can only be accessed by one thread at a time
+    Volatile - 
+        The value of an attribute is not cached thread-locally, and is always read from the "main memory"
+
+Java Identifiers - 
+    The names of variables, methods, classes, packages and interfaces. Variable names can include any alphabetic character or digit and the underscore _. ... The main restriction on the names you can give your variables is that they cannot contain any white space.
+
+Java keywords - 
+    Reserved words that cannot be used as variables, methods, classes, or any other identifiers. 
+
+Variable Shadowing -
+    When a parameter in a method is spelled the same as an instance variable. Variable shadowing refers to the practice of naming two variables — for example, a global and a local variable or a local variable and a callback function parameter — with the same name and within scopes that overlap. The variable scoping rule states that inner scope can access variables defined in the outer scope. This is true in almost all cases — not when the variable in the inner scope shadows the variable in the outer scope. Variable shadowing is a condition where two variables with the same name coexisting in a scope where these variables should both be accessible.
+
+Exceptions -
+    An unexpected situations that happens in the program and Java doesnt know what to do, therefore it creates an exception object. This Exception Object contains useful information and throws the exception to the code that invoked the problematic method.
+
+Instance Variables(Non-Static Fields) - 
+    Technically speaking, objects store their individual states in "non-static fields", that is, fields declared without the "static" keyword. They are also known as instance variables because their values are unique to each instace of a class(to each object, in other words).
+
+Class Variables(Static Fields) - 
+    Any field declared with the static modifier. This tells the compiler that there is exactly one copy of this variable in existance, regardless of how many times the calss has been instantiated. 
+
+Local Variables - 
+    Similar to how an object stores its state in fields, a method will often store its temporary state in local variables. The syntax for declaring a local variable is similar to declaring a field. Local Variables are only visible to the metod in which they are declared.
+
+Parameters -
+    Parameters are the variable word in a method that is inside the parenthesis, before the block is declared. Parameters are always classified as "variables" not "fields". 
