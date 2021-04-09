@@ -9,7 +9,7 @@ class Book {
     this.numCopies = numCopies;
   } 
   get availability() {
-    return this.getAvailability 
+    return this.getAvailability() 
   }
 
   getAvailability() {
